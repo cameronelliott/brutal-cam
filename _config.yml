@@ -15,10 +15,21 @@ include:
 
 permalink: pretty
 
+# relative_links:
+#   enabled:     true
+#   collections: false
+#   exclude:
+#     - index.md
+
+
 sass:
   style: :compressed
 
 future: true
+
+# get help 
+# https://github.com/benbalter/jekyll-relative-links
+# https://github.com/benbalter/jekyll-optional-front-matter
 
 plugins:
   - jekyll-relative-links
