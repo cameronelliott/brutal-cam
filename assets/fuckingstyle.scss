@@ -29,3 +29,13 @@ h3 {
     color: #ccf;
   }
 }
+
+// cameron
+a {
+	&:link {
+		color:blue;
+	}
+	&:visited {
+		color:blue;
+	}
+}
