@@ -19,7 +19,7 @@ cd brutal-cam
 
 Server for working with live-reload, open your browser to http://127.0.0.1:4000
 ```bash
-docker run --rm -it -v $PWD:/srv/jekyll -p 127.0.0.1:4000:4000 jekyll/builder:4.2.0 jekyll serve --livereload true
+docker run --rm -it -v $PWD:/srv/jekyll -p 4000:4000 -p 35729:35729 jekyll/builder:latest jekyll serve --livereload
 ```
 
 Build to _site
