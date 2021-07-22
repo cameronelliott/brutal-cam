@@ -1,0 +1,34 @@
+title: Title
+
+
+headlines: |
+  <!-- https://realfavicongenerator.net/svg-favicon/ -->
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+
+
+
+include:
+  - README.md
+
+# remote_theme: cameronelliott/brutal-cam
+
+permalink: pretty
+
+sass:
+  style: :compressed
+
+future: true
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  # - jekyll-remote-theme
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
