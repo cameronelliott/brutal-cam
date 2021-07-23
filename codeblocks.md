@@ -3,7 +3,15 @@
 
 codeblock:
 ```bash
-docker run --rm -it -v $PWD:/srv/jekyll -p 4000:4000 -p 35729:35729 jekyll/builder:latest jekyll serve --livereload
+curl -sL https://github.com/x186k/deadsfu/releases/latest/download/deadsfu-darwin-arm64.tar.gz | tar xvz
+```
+
+
+
+
+codeblock:
+```bash
+ls -ald ..
 ```
 
 
