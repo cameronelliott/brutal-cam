@@ -98,10 +98,8 @@ pre.highlight > button:focus {
   margin: 0;
 }
 
-code {
-  white-space : pre-wrap !important;
-}
-
 pre.highlight  {
   background:#f0f0f0;
+  overflow:auto;
 }
+
